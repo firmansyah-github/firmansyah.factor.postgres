@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>firmansyah.factor.multidatabase</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+	</buildSpec>
+	<natures>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>factor.combination.common.ftl</name>
+			<type>1</type>
+			<location>/Users/firmansyah.profess/factor-workspace/firmansyah.factor.multidatabase/templates/factor.combination.common.ftl</location>
+		</link>
+		<link>
+			<name>factor.combination.pk.multidatabase.columns.fk.1toM.ftl</name>
+			<type>1</type>
+			<location>/Users/firmansyah.profess/factor-workspace/firmansyah.factor.multidatabase/templates/factor.combination.pk.multidatabase.columns.fk.1toM.ftl</location>
+		</link>
+	</linkedResources>
+</projectDescription>
