@@ -128,4 +128,43 @@ By integrating the **Factor PostgreSQL Automation Engine**, engineering teams ex
 - **Deterministic Output:** Ensure identical database environments across Dev, Staging, and Production.
 - **Enterprise Scalability:** Seamlessly scale from single schemas to complex, multi-database microservice architectures.
 
+---
+
+## 📂 8. Project Structure
+
+This repository is structured to seamlessly integrate with the Factor engine:
+
+- `templates/` - Contains the raw Freemarker (`.ftl`) templates responsible for the SQL dialect syntax and generation logic.
+- `outputs/` - The destination directory where the Factor engine drops the newly generated `.sql` files.
+- `script/` - Contains the orchestration scripts (`factor.sh` / `factor.bat`) to automate Docker container lifecycle and DDL execution.
+- `firmansyah.factor.postgres.config.xml` - The primary XML mapping configuration defining how the templates map to your Domain definitions.
+
+---
+
+## 📥 9. How to Download the Templates
+
+If you wish to use these enterprise-grade PostgreSQL templates in your own Factor Eclipse workspace, you can pull them directly from our repository.
+
+👉 **[Download the Templates via GitHub](https://github.com/firmansyah-github/firmansyah.factor.postgres/tree/main/templates)**
+
+You can clone the entire repository or download specific `.ftl` files to integrate into your local `templates/` directory.
+
+---
+
+## 🚀 10. How to Use This Project with the Factor Eclipse Plugin
+
+To unleash the full power of this repository, you must run it through the Factor Eclipse Plugin.
+
+1. **Install the Plugin:** Ensure you have the [Factor Eclipse Plugin installed from the Eclipse Marketplace](https://marketplace.eclipse.org/content/factor-firmansyah-advanced-crud-generator).
+2. **Import the Project:** Clone this repository and import it into your Eclipse workspace.
+3. **Configure the Environment:** Point your Factor workspace settings to the `firmansyah.factor.postgres.config.xml`.
+4. **Execute Generation:** Right-click your domain and trigger the code generation. The SQL files will instantly populate the `outputs/` directory.
+
+### 📚 Learning & References
+To master the usage of the Factor Plugin and build upon these templates, refer to our complete documentation:
+- 📖 [Overview of The Factor Core](https://firmansyah-github.github.io/factor.docs/#/factor.docs.overview/README.md)
+- 📝 [Template Blueprint Example](https://firmansyah-github.github.io/factor.docs/#/factor.docs.templates.example/README.md)
+- 🤖 [AI Integration & Extension Guide](https://firmansyah-github.github.io/factor.docs/#/factor.docs.ai.prompt/factor.ai.prompt.guide.md)
+- ☕ [Java & Relational Extension Cookbook](https://firmansyah-github.github.io/factor.docs/#/factor.docs.ai.prompt/factor.ai.prompt.extension.java.md)
+
 *Ready to level up your database automation? Explore the source, and follow for more enterprise-grade technical documentation.*
