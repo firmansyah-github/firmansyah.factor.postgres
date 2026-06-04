@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path=""/>
+	<classpathentry kind="lib" path="/Applications/Eclipse.app/Contents/Eclipse/plugins/firmansyah.factor.plugin_3.0.3.v20260604-0136.jar"/>
+	<classpathentry kind="lib" path="/Applications/Eclipse.app/Contents/Eclipse/plugins/firmansyah.framework.base_3.0.3.v20260531-0835.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

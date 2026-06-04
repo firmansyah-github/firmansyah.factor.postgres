@@ -1,23 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>firmansyah.factor.multidatabase</name>
+	<name>firmansyah.factor.postgres</name>
 	<comment></comment>
 	<projects>
 	</projects>
 	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
 	</buildSpec>
 	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
 	<linkedResources>
 		<link>
-			<name>factor.combination.common.ftl</name>
-			<type>1</type>
-			<location>/Users/firmansyah.profess/factor-workspace/firmansyah.factor.multidatabase/templates/factor.combination.common.ftl</location>
-		</link>
-		<link>
 			<name>factor.combination.pk.multidatabase.columns.fk.1toM.ftl</name>
 			<type>1</type>
-			<location>/Users/firmansyah.profess/factor-workspace/firmansyah.factor.multidatabase/templates/factor.combination.pk.multidatabase.columns.fk.1toM.ftl</location>
+			<location>/Users/firmansyah.profess/factor-workspace/firmansyah.factor.postgres/templates/factor.combination.pk.multidatabase.columns.fk.1toM.ftl</location>
 		</link>
 	</linkedResources>
+	<filteredResources>
+		<filter>
+			<id>1780464556065</id>
+			<name></name>
+			<type>30</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>node_modules|\.git|__CREATED_BY_JAVA_LANGUAGE_SERVER__</arguments>
+			</matcher>
+		</filter>
+	</filteredResources>
 </projectDescription>
