@@ -25,11 +25,18 @@ All operational parameters are centralized and managed securely via the `factor.
 
 ## 🚀 2. Core Usage & Entry Point
 
-The `factor.sh` script serves as the unified entry point for all infrastructure operations. It features robust error handling, automated system checks, and detailed operational logging.
+The `factor.sh` (for Unix/macOS) and `factor.bat` (for Windows) scripts serve as the unified entry points for all infrastructure operations. They feature robust error handling, automated system checks, and detailed operational logging.
 
+**For Linux/macOS:**
 ```bash
 cd script
 ./factor.sh [COMMAND] [OPTIONS]
+```
+
+**For Windows:**
+```cmd
+cd script
+factor.bat [COMMAND] [OPTIONS]
 ```
 
 ---
